@@ -1,3 +1,5 @@
+/*#39729B*/
+
 *
 {
 	margin: 0;
@@ -7,14 +9,23 @@
 body
 {
 	overflow-x: hidden;
+	font-family: 'dinl';
 }
 
+@font-face
+{
+	font-family: 'dinl';
+	src: url('./font/dinl.ttf') format('truetype');
+}
+
+
+/*Début du code CSS pour le site du CASA*/
 
 
 header
 {
+	position: relative;
 	width: 100%;
-	border: 1px solid red;
 }
 
 .fa-facebook-square
@@ -23,63 +34,34 @@ header
 	color: #3B5998;
 }
 
-ul
+.nav_content li
 {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	list-style-type: none;
+	font-size: 1.5em;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-
+a
+{
+	text-decoration: none;
+}
 
 /*Animation pur css slidershow*/
-/*@keyframes AutoSlide 
-{
-	0% 
-	{
-		left: 0px; /*Façade
-	}
-
-	15% 
-	{
-		left: -1024px; /*idem pour attente*
-	}
-
-	35% 
-	{
-		left: -2048px; /*Salle de cours
-	}
-
-	50% 
-	{
-		left: 0px; /*idem pour attente
-	}
-
-	70% 
-	{
-		left: -2048px; /*Bibliothèque et carte
-	}
-
-	85% 
-	{
-		left: 0px; /*idem pour attente
-	}
-
-	100% 
-	{
-		left: 0px; /*Façade
-	}
-}*/
 
 @keyframes AutoSlide {
 	0%, 10%, 100% {
-		left: 0px; /*1ère image*/
+		left: 0px; /*Façade*/
 	}
 	35%, 50% {
-		left: -1024px; /*2ème image*/
+		left: -1024px; /*Salle de cours*/
 	}
 	70%, 85% {
-		left: -2048px; /*3ème image*/
+		left: -2048px; /*Bibliothèque et carte*/
 	}
 }
 
@@ -91,12 +73,12 @@ ul
 	overflow: hidden;
 }
 
-.sContent li 
+.slide_content li 
 {
 	display: inline;
 }
 
-.sContent 
+.slide_content 
 {
 	position: absolute;
 	top: 0;
@@ -106,6 +88,7 @@ ul
 	padding: 0;
 	
 	/*CSS3 keyframes animation*/
+	
 	animation-name: AutoSlide;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
