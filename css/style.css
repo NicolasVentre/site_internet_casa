@@ -4,8 +4,110 @@
 	padding: 0;
 }
 
+body
+{
+	overflow-x: hidden;
+}
+
+
+
+header
+{
+	width: 100%;
+	border: 1px solid red;
+}
+
 .fa-facebook-square
 {
 	font-size: 3em;
 	color: #3B5998;
+}
+
+ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+
+
+/*Animation pur css slidershow*/
+/*@keyframes AutoSlide 
+{
+	0% 
+	{
+		left: 0px; /*Façade
+	}
+
+	15% 
+	{
+		left: -1024px; /*idem pour attente*
+	}
+
+	35% 
+	{
+		left: -2048px; /*Salle de cours
+	}
+
+	50% 
+	{
+		left: 0px; /*idem pour attente
+	}
+
+	70% 
+	{
+		left: -2048px; /*Bibliothèque et carte
+	}
+
+	85% 
+	{
+		left: 0px; /*idem pour attente
+	}
+
+	100% 
+	{
+		left: 0px; /*Façade
+	}
+}*/
+
+@keyframes AutoSlide {
+	0%, 10%, 100% {
+		left: 0px; /*1ère image*/
+	}
+	35%, 50% {
+		left: -1024px; /*2ème image*/
+	}
+	70%, 85% {
+		left: -2048px; /*3ème image*/
+	}
+}
+
+.slideshow_image 
+{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+.sContent li 
+{
+	display: inline;
+}
+
+.sContent 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 }
