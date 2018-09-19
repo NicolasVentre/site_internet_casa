@@ -29,11 +29,16 @@ body
 
 /*Début du code CSS pour le site du CASA*/
 
-
 header
 {
 	position: relative;
-	width: 100%;
+}
+
+header figure
+{
+	position: absolute;
+	left: 70%;
+	top: 0; 
 }
 
 .nav_content
