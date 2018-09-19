@@ -1,4 +1,5 @@
-/*#39729B*/
+/*Réglage général du site*/
+
 
 *
 {
@@ -10,12 +11,19 @@ body
 {
 	overflow-x: hidden;
 	font-family: 'dinl';
+	margin: 0;
 }
 
 @font-face
 {
 	font-family: 'dinl';
 	src: url('./font/dinl.ttf') format('truetype');
+}
+
+.fa-facebook-square
+{
+	font-size: 3em;
+	color: #3B5998;
 }
 
 
@@ -28,22 +36,16 @@ header
 	width: 100%;
 }
 
-.fa-facebook-square
-{
-	font-size: 3em;
-	color: #3B5998;
-}
-
-.nav_content li
+.nav_content
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	list-style-type: none;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 a
@@ -51,46 +53,40 @@ a
 	text-decoration: none;
 }
 
-/*Animation pur css slidershow*/
+/*Animation caroussel à revoir*/
 
-@keyframes AutoSlide {
-	0%, 10%, 100% {
-		left: 0px; /*Façade*/
-	}
-	35%, 50% {
-		left: -1024px; /*Salle de cours*/
-	}
-	70%, 85% {
-		left: -2048px; /*Bibliothèque et carte*/
-	}
+@keyframes slidy 
+{
+	0% { left: 0%; }
+	20% { left: 0%; }
+	25% { left: -100%; }
+	45% { left: -100%; }		/*A REVOIR*/
+	50% { left: -200%; }
+	70% { left: -200%; }
+	75% { left: -300%; }
+	95% { left: -300%; }
+	100% { left: -400%; }
 }
 
-.slideshow_image 
-{
-	position: relative;
-	width: 100%;
-	height: 600px;
+div#slideshow_image 
+{ 
 	overflow: hidden;
 }
 
-.slide_content li 
-{
-	display: inline;
+div#slideshow_image figure img 
+{ 
+	width: 20%;
+	height: 550px;
+	float: left;
 }
 
-.slide_content 
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 450px;
-	margin: 0;            
-	padding: 0;
-	
-	/*CSS3 keyframes animation*/
-	
-	animation-name: AutoSlide;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
+div#slideshow_image figure 
+{ 
+  	position: relative;
+  	width: 500%;
+  	margin: 0;
+  	left: 0;
+  	text-align: left;
+  	font-size: 0;
+  	animation: 30s slidy infinite; 
 }

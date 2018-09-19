@@ -2,6 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link rel="shortcut icon" type="image/png" href="image/favicon.ico"/>
@@ -11,12 +12,20 @@
 		<body>
 			
 			<header>
-				<h1 class="header_titre">CASA Collectif Associatif Saint-Amandois</h1>
-				<audio src="audio/presentation_casa.mp3" controls></audio>
-				<a href="https://www.facebook.com/casa18" target="Facebook">
-					<i class="fab fa-facebook-square"></i>
-				</a>
-				<img src="image/casa.jpg" alt="image représentative du CASA">
+				
+				<div class="">
+					<h1 class="header_titre">CASA Collectif Associatif Saint-Amandois</h1>
+
+					<audio src="audio/presentation_casa.mp3" controls></audio>
+
+					<a href="https://www.facebook.com/casa18" target="Facebook">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+				</div>
+
+				<figure>
+					<img src="image/casa.jpg" alt="Logo du CASA">
+				</figure>	
 			</header>
 
 			
@@ -31,23 +40,16 @@
 					</ul>
 				</nav>
 						
-				<div class="slideshow_image">
-					<ul class="slide_content">
-						<li>
-							<img src="image/facade.jpg" alt="Façade du CASA">
-						</li>	
-							
-						<li>
-							<img src="image/interieur.jpg" alt="Salle de cours du CASA">
-						</li>
-							
-						<li>
-							<img src="image/bibli_carte.png" alt="Bibliothèque et carte des actions du CASA">
-						</li>
-					</ul>
+				<div id="slideshow_image">					
+					<figure>
+						<img src="image/facade.jpg" alt="Façade du CASA">
+						<img src="image/interieur.jpg" alt="Salle de cours du CASA">						
+						<img src="image/bibli_carte.png" alt="Bibliothèque et carte des actions du CASA">
+						<img src="image/facade.jpg" alt="Façade du CASA">
+					</figure>	
 				</div>	
 			</section>
-
+			<!--
 			<section id="informations">
 				<div>
 					<h2>Actualités</h2>
@@ -65,6 +67,6 @@
 				<h4>Horaires d'ouverture</h4>
 
 			</footer>
-
+			-->
 		</body>
 </html>
