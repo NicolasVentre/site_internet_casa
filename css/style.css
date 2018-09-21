@@ -28,6 +28,7 @@ body
 
 /*Début du code CSS pour le site du CASA*/
 
+
 header
 {
 	display: flex;
@@ -46,7 +47,9 @@ audio
 	margin-top: 20px;
 }
 
+
 /*Menu de navigation*/
+
 
 .nav_content
 {
@@ -65,7 +68,9 @@ a
 	text-decoration: none;
 }
 
+
 /*Animation caroussel à revoir*/
+
 
 @keyframes slidy 
 {
@@ -116,3 +121,8 @@ div#slideshow_image figure
 	justify-content: space-between;
 	margin-top: 50px;
 }
+
+
+/*Galerie d'image à améliorer*/
+
+
