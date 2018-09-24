@@ -69,44 +69,24 @@ a
 }
 
 
-/*Animation caroussel à revoir*/
+/*Définition des propriétés des images*/
 
-
-@keyframes slidy 
+.slider_img
 {
-	0% { left: 0%; }
-	20% { left: 0%; }
-	25% { left: -100%; }
-	45% { left: -100%; }		/*A REVOIR*/
-	50% { left: -200%; }
-	70% { left: -200%; }
-	75% { left: -300%; }
-	95% { left: -300%; }
-	100% { left: -400%; }
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 
-div#slideshow_image 
-{ 
-	overflow: hidden;
+.slider_img img
+{
+	width: 50%;
 }
 
-div#slideshow_image figure img 
-{ 
-	width: 20%;
-	height: 550px;
-	float: left;
-}
+/*Placement et informations du CASA*/
 
-div#slideshow_image figure 
-{ 
-  	position: relative;
-  	width: 500%;
-  	margin: 0;
-  	left: 0;
-  	text-align: left;
-  	font-size: 0;
-  	animation: 30s slidy infinite; 
-}
 
 #informations
 {
