@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+	
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,9 @@
 		<title>CASA Saint Amand Montrond</title>
 	</head>
 		
+
 		<body>
 
-			
 	<!--EN-TÊTE DU SITE-->
 
 
@@ -47,9 +48,11 @@
 				<div id="slideshow_image">
 					<figure class="slider_img">
 						<img src="image/facade.jpg" alt="Façade du CASA">
+						<!--
 						<img src="image/interieur.jpg" alt="Salle de cours du CASA">						
 						<img src="image/bibli_carte.png" alt="Bibliothèque et carte des actions du CASA">
 						<img src="image/facade.jpg" alt="Façade du CASA">
+						-->
 					</figure>	
 				</div>	
 			</section>
@@ -59,19 +62,27 @@
 
 
 			<section id="informations">
+				<div class="actu_info">
 					<h2>Actualités</h2>
 					<p>Courant Septembre: Nouvelles séances de diététiques seront proposées</p>
 					<p>Annonces Mission bénévole: Nous recherchons des bénévoles pour l'accompagnement scolaire du CP à la Terminale</p>
 					<p>Nous recherchons 2 services civiques pour animer les différents ateliers (du 1er octobre au 1er juillet)</p>
-
+				</div>
+				
+				<div class="doc_info">	
 					<h2>Livret d'accueil</h2>
 					<p>Ce <a href="document/livret_accueil.doc" download="livret_accueil.doc">livret</a> contient des informations concernant le CASA tels que les horaires, les tarifs et autres généralités.</p>
-
+				</div>
+				
+				<div class="fiche_info">	
 					<h2>Inscriptions/tarifs</h2>
-					<p>Les fiches d'inscriptions sont disponibles téléchargeables ci-dessous.
-					<a href="">Fiche adulte</a>
-					<a href="">Fiche élèves</a>
-					<a href="">Fiche cours de langues</a></p>				
+					<p>Les fiches d'inscriptions sont disponibles téléchargeables ci-dessous.</p>
+					<ul>
+						<li><a href="document/fiche_adulte.pdf" target="_blank">Fiche adulte</a></li>
+						<li><a href="document/fiche_enfant.pdf" target="_blank">Fiche élèves</a></li>
+						<li><a href="document/fiche_cours_langue.pdf" target="_blank">Fiche cours de langues</a></li>
+					</ul>	
+				</div>
 			</section>
 
 
@@ -79,17 +90,17 @@
 
 
 			<footer id="contact">
+				<div class="info_contact">
+					<h2>Contactez-nous</h2>
+					<p>Par e-mail: <a href="mailto:casa18@wanadoo.fr">casa18@wanadoo.com</a></p>
+					<p>Par téléphone: <a href="https://www.pagesjaunes.fr/pros/50311689" target="_blank">02.48.96.50.07</a></p>
+				</div>
 				
-				<h4>Contactez-nous</h4>
-				<p>Par e-mail: casa18@wanadoo.fr
-				   Par téléphone: 02.48.96.50.07</p>
-
-				<h4>Horaires d'ouverture</h4>
-				<p>Lundi, Mardi, Jeudi et Vendredi :
-					9h00 - 12h00 / 14h00 - 18h30
-					Mercredi :
-					9h00 - 12h00 / 14h00 - 17h00</p>
-
+				<div class="horaires">	
+					<h2>Horaires d'ouverture</h2>
+					<p>Lundi, Mardi, Jeudi et Vendredi :9h - 12h / 14h - 18h30</p>
+					<p>Mercredi : 9h - 12h / 14h - 17h</p>
+				</div>
 			</footer>
 
 
@@ -97,6 +108,7 @@
 
 			
 			<script src="javascript/script.js"></script>
+			<script src="javascript/test.js"></script>
 
 		</body>
 </html>

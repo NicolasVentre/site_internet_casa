@@ -1,4 +1,4 @@
-var slider_img = new jsSlide
+var slider_img = jsSlide
 (
 {
 	id: 'slideshow_image',
