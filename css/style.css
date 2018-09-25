@@ -100,24 +100,26 @@ a
 #informations
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin-top: 50px;
 }
 
 .actu_info
 {
-	width: 33%;
-	margin-left: 2%;
+	width: 30%;
+	margin-left: 5%;
 }
 
 .doc_info
 {
 	width: 30%;
+	margin-left: 5%;
 }
 
 .fiche_info
 {
-	width: 33%;
+	width: 30%;
+	margin-left: 5%;
 }
 
 #contact
@@ -131,13 +133,13 @@ a
 .info_contact
 {
 	width: 50%;
-	margin-left: 5%;
+	text-align: center;
 }
 
 .horaires
 {
 	width: 50%;
-	margin-left: 5%;
+	text-align: center;
 }
 
 
