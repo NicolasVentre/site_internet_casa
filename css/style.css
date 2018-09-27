@@ -1,4 +1,4 @@
-/*Réglage général du site*/
+/*REGLAGES GENERAL DU SITE*/
 
 *
 {
@@ -31,8 +31,13 @@ li
 	list-style: none;
 }
 
+h2, h3
+{
+	color: #000;
+}
 
-/*Début du code CSS pour le site du CASA*/
+
+/*DEBUT DU CODE DU SITE DU CASA*/
 
 
 header
@@ -55,7 +60,7 @@ audio
 }
 
 
-/*Menu de navigation*/
+/*MENU DE NAVIGATION*/
 
 
 .nav_content
@@ -106,9 +111,7 @@ a
 
 .slideshow_container img
 {
-	width: 80%;
 	border-radius: 5px;
-	height: 500px;
 }
 
 /* Hide the images by default */
@@ -161,7 +164,7 @@ a
 }
 
 
-/*Placement et informations du CASA*/
+/*PLACEMENT ET INFORMATIONS DU CASA*/
 
 
 #informations
@@ -195,7 +198,7 @@ a
 	display: flex;
 	justify-content: space-between;
 	margin-top: 50px;
-	border-top: 3px solid #000;
+	border-top: 3px solid #0C3C60;
 }
 
 .info_contact
@@ -211,8 +214,73 @@ a
 }
 
 
-/*GALERIE D'IMAGE*/
+/*CSS DE LA PAGE QUI SOMMES NOUS*/
 
+.titre_propos
+{
+	text-transform: uppercase;
+	margin-left: 5%;
+}
+
+.texte_propos
+{
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+
+.sous_titre
+{
+	margin-left: 10%;
+}
+
+#a_propos img
+{
+	margin-left: 5%;
+}
+
+.liseret
+{
+	width: 70%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	border: 0.5px solid #0C3C60;
+}
+
+/*FIN DU CODE DE LA PAGE QUI SOMMES NOUS*/
+
+
+/* PAGE NOS ACTIONS*/
+
+.service_titre
+{
+	text-transform: uppercase;
+	margin-left: 10%;
+}
+
+.service_liseret
+{
+	width: 70%;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	border: 0.5px solid #6EA4CA;
+}
+
+.service_texte
+{
+	margin-bottom: 30px;
+	margin-left: 15%;
+}
+
+#service img
+{
+	margin-left: 20%;
+	width: 60%
+}
+
+/*FIN DE PAGE NOS ACTIONS*/
+
+
+/*GALERIE D'IMAGE*/
 
 #galerie_image 
 {
