@@ -102,15 +102,27 @@ a
 * {box-sizing:border-box}
 
 /* Slideshow container */
+
+.slider 
+{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+	object-fit: fill;
+}
+
 .slideshow_container 
 {
-  	max-width: 1000px;
   	position: relative;
   	margin: auto;
 }
 
 .slideshow_container img
 {
+	width: 75%;
+	object-fit: cover;
+	height: 530px;
 	border-radius: 5px;
 }
 
@@ -118,28 +130,6 @@ a
 .mySlides 
 {
     display: none;
-}
-
-/* Caption text */
-.text 
-{
-  	color: #f2f2f2;
-  	font-size: 15px;
- 	padding: 8px 12px;
- 	position: absolute;
-  	bottom: 8px;
-  	width: 100%;
-  	text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext 
-{
-  	color: #f2f2f2;
-  	font-size: 12px;
-  	padding: 8px 12px;
-  	position: absolute;
-  	top: 0;
 }
 
 /* Fading animation */
@@ -172,6 +162,13 @@ a
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
+}
+
+.info_liseret
+{
+	width: 250px;
+ 	border: 0.5px solid #39729B;
+ 	margin-bottom: 10px;
 }
 
 .actu_info
@@ -212,6 +209,9 @@ a
 	width: 50%;
 	text-align: center;
 }
+
+
+/*FIN DES INFORMATIONS DU CASA*/
 
 
 /*CSS DE LA PAGE QUI SOMMES NOUS*/
