@@ -6,6 +6,11 @@
 	padding: 0;
 }
 
+* 
+{
+	box-sizing:border-box
+}
+
 body
 {
 	overflow-x: hidden;
@@ -80,26 +85,7 @@ a
 	text-decoration: none;
 }
 
-
-/*Définition des propriétés des images*/
-
-/*.slider_img
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-
-.slider_img img
-{
-	width: 70%;
-	height: 550px;
-	border-radius: 5px;
-}*/
-
-* {box-sizing:border-box}
+/*Animation du slideshow*/
 
 /* Slideshow container */
 
@@ -127,12 +113,14 @@ a
 }
 
 /* Hide the images by default */
+
 .mySlides 
 {
     display: none;
 }
 
 /* Fading animation */
+
 .fade 
 {
   	-webkit-animation-name: fade;
@@ -278,6 +266,64 @@ a
 }
 
 /*FIN DE PAGE NOS ACTIONS*/
+
+
+/*PAGE NOS ACTIONS : ADULTE*/
+
+#info_adulte
+{
+	margin-top: 50px;
+}
+
+.adulte_titre
+{
+	text-transform: uppercase;
+	margin-left: 5%;
+}
+
+.adulte_liseret
+{
+	width: 70%;
+	margin-left: 5%;
+	border: 0.5px solid #6EA4CA;
+}
+
+.sous_titre_adulte_liseret
+{
+	width: 30%;
+	margin-left: 7.5%;
+	border: 0.5px solid #6EA4CA;
+}
+
+.sous_titre_adulte
+{
+	margin-left: 7.5%;
+	margin-top: 15px;
+}
+
+.contenu_adulte
+{
+	margin-left: 7.5%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #000;
+}
+
+.adulte_texte
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 7.5%;
+}
+
+#info_adulte ul
+{
+	margin-left: 12%;
+}
+
+
+
+/*FIN PAGE NOS ACTIONS : ADULTE*/
 
 
 /*GALERIE D'IMAGE*/
