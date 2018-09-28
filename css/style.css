@@ -4,10 +4,6 @@
 {
 	margin: 0;
 	padding: 0;
-}
-
-* 
-{
 	box-sizing:border-box
 }
 
@@ -52,6 +48,11 @@ header
 	margin-left: 6.5%;
 }
 
+.texte_header
+{
+	font-size: 1.5em;
+}
+
 header figure
 {
 	width: 30%;
@@ -64,7 +65,6 @@ audio
 	margin-top: 20px;
 }
 
-
 /*MENU DE NAVIGATION*/
 
 
@@ -73,19 +73,29 @@ audio
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	list-style-type: none;
 	font-size: 1.2em;
-	width: 100%;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	width: 90%;
+	height: 50px;
+	margin-left: 5%;
+	border-radius: 50px; 
+	border: 2px solid #0C3C60;
+}
+
+.nav_content li
+{
+	margin-top: 10px;
 }
 
 a
 {
 	text-decoration: none;
 }
+ 
+/*FIN DU MENU DE NAVIGATION*/
 
-/*Animation du slideshow*/
+/*ANIMATION DU SLIDESHOW*/
 
 /* Slideshow container */
 
@@ -106,9 +116,9 @@ a
 
 .slideshow_container img
 {
-	width: 75%;
+	width: 85%;
 	object-fit: cover;
-	height: 530px;
+	height: 550px;
 	border-radius: 5px;
 }
 
@@ -141,9 +151,10 @@ a
   	to {opacity: 1}
 }
 
+/*FIN ANIMATION SLIDESHOW*/
+
 
 /*PLACEMENT ET INFORMATIONS DU CASA*/
-
 
 #informations
 {
@@ -199,10 +210,10 @@ a
 }
 
 
-/*FIN DES INFORMATIONS DU CASA*/
+/*FIN INFORMATIONS DU CASA*/
 
 
-/*CSS DE LA PAGE QUI SOMMES NOUS*/
+/*PAGE QUI SOMMES NOUS*/
 
 .titre_propos
 {
@@ -231,10 +242,10 @@ a
 	width: 70%;
 	margin-left: 5%;
 	margin-bottom: 20px;
-	border: 0.5px solid #0C3C60;
+	border: 0.5px solid #6EA4CA;
 }
 
-/*FIN DU CODE DE LA PAGE QUI SOMMES NOUS*/
+/*FIN DE PAGE QUI SOMMES NOUS*/
 
 
 /* PAGE NOS ACTIONS*/
@@ -311,8 +322,8 @@ a
 
 .adulte_texte
 {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	margin-left: 7.5%;
 }
 
@@ -321,9 +332,99 @@ a
 	margin-left: 12%;
 }
 
-
-
 /*FIN PAGE NOS ACTIONS : ADULTE*/
+
+
+/*PAGE NOS ACTIONS : ENFANT*/
+
+.titre_enfant
+{
+	text-transform: uppercase;
+	margin-left: 5%;
+}
+
+.enfant_liseret
+{
+	width: 70%;
+	margin-left: 5%;
+	border: 0.5px solid #6EA4CA;
+}
+
+.sous_titre_enfant
+{
+	margin-left: 7.5%;
+	margin-top: 15px;
+}
+
+.sous_titre_enfant_liseret
+{
+	width: 19%;
+	margin-left: 7.5%;
+	border: 0.5px solid #6EA4CA;
+}
+
+.texte_enfant
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 7.5%;
+}
+
+#info_enfant ul
+{
+	margin-left: 12%;
+}
+
+/*FIN PAGE NOS ACTIONS : ENFANT*/
+
+
+/*PAGE NOS ACTIONS : LUDIQUE*/
+
+.titre_ludique
+{
+	text-transform: uppercase;
+	margin-left: 5%;
+}
+
+.ludique_liseret
+{
+	width: 70%;
+	margin-left: 5%;
+	border: 0.5px solid #6EA4CA;
+}
+
+.sous_titre_ludique
+{
+	margin-left: 7.5%;
+	margin-top: 15px;
+}
+
+.sous_titre_ludique_liseret
+{
+	width: 13%;
+	margin-left: 7.5%;
+	border: 0.5px solid #6EA4CA;
+}
+
+.texte_ludique
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 7.5%;
+}
+
+#info_ludique ul
+{
+	margin-left: 12%;
+}
+
+#info_ludique img
+{
+	margin-top: 40px;
+	margin-left: 10%;
+}
+
+/*FIN PAGE NOS ACTIONS : LUDIQUE*/
 
 
 /*GALERIE D'IMAGE*/
