@@ -448,30 +448,74 @@ a
 
 /*FORMULAIRE DE CONTACT*/
 
-#formulaire_contact
+.titre_contact
 {
-	display: flex;
-	flex-direction: row;
+	margin-left: 5%;
+	text-transform: uppercase;
 }
 
-.form_contact
+.liseret_contact
 {
-	width: 50%;
+	width: 70%;
+	margin-left: 5%;
+	border: 0.5px solid #6EA4CA;
+}
+
+.texte_contact
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 7.5%;
+}
+
+.sous_liseret_contact
+{
+	width: 3.3%;
+	margin-left: 7.5%;
+	margin-top: 5px;
+	border: 0.5px solid #6EA4CA;
+}
+
+.facebook_icone
+{
+	margin-left: 7.5%;
+	margin-top: 5px;
+}
+
+.form_contact .fa-facebook-square
+{
+	font-size: 1.5em
 }
 
 form
 {
-	width: 50%;
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin-left: 7.5%;
+	margin-top: 5px;
+}
+
+input
+{
+	margin-top: 5px;
+	padding-left: 5px;
+	border-radius: 3px;
 }
 
 textarea
 {
-	
+	margin-top: 5px;
+	padding-left: 5px;
 }
 
 iframe
 {
-	margin-top: 100px;
+	width: 950px;
+	height: 550px;
+	border: none;
+	margin-left: 2.5%;
+	margin-top: 50px;
 }
 
 /*FIN DU FORMULAIRE DE CONTACT*/
