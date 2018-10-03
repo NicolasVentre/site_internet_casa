@@ -48,7 +48,7 @@
 				<div class="form_contact">
 					<h2 class="titre_contact">Contactez-nous</h2>
 						<div class="liseret_contact"></div>
-					<p class="texte_contact">Tél: <a href="https://www.pagesjaunes.fr/pros/50311689" target="_blank">02.48.96.50.07</a></p>
+					<p class="texte_contact">Tél: <a href="https://www.pagesjaunes.fr/pros/50311689" target="blank">02.48.96.50.07</a></p>
 						<div class="sous_liseret_contact"></div>
 					<p class="texte_contact">82 rue Jean Moulin 18200 St-Amand Montrond casa18@wanadoo.fr</p>
 						<div class="sous_liseret_contact"></div>
@@ -59,21 +59,16 @@
 						</a>
 						<p class="facebook_contact">Retrouvez nous sur Facebook : Page Le CASA</p>
 					</div>	
-				</div>	
-
+				</div>
+				
 				<form method="post" action="traitement.php">
 					<input type="text" name="pseudo" id="pseudo" placeholder="Nom*" required>
-					<input type="mail" name="mail" id="mail" placeholder="Email*" required>
+					<input type="email" name="email" id="email" placeholder="Email*" required>
 					<input type="tel" name="phone" id="phone" placeholder="Téléphone">
 					<input type="text" name="subject" id="subject" placeholder="Sujet">
 					<textarea name="message" id="message" placeholder="Message" cols="10" rows="10"></textarea>
-					<input type="submit" value="Envoyez">
+					<button type="submit" value="submit">Envoyez</button>
 				</form>
 			</section>
-
-		<!--CARTE INDEPENDANTE DU FORMULAIRE DE CONTACT-->
-
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858.0004510343351!2d2.5099772214594855!3d46.735969625566376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fa7c6b439d6759%3A0x6cddd3baebf051a8!2s82+Rue+Jean+Moulin%2C+18200+Saint-Amand-Montrond!5e1!3m2!1sfr!2sfr!4v1538470749826"></iframe>
-
 		</body>
 </html>
