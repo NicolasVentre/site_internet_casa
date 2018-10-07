@@ -53,6 +53,18 @@ header
 	font-size: 1.5em;
 }
 
+.flex
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+audio
+{
+	margin-left: 20%;
+}
+
 header figure
 {
 	width: 30%;
@@ -60,10 +72,6 @@ header figure
 	margin-top: 7px;
 }
 
-audio
-{
-	margin-top: 20px;
-}
 
 /*MENU DE NAVIGATION*/
 
@@ -267,8 +275,27 @@ a
 
 .service_texte
 {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	margin-left: 15%;
+}
+
+.sous_nav_content
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 35%;
+	height: 40px;
+	border-radius: 50px; 
+	border: 2px solid #6EA4CA;
+	margin-left: 30%;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
+
+.sous_nav_content li
+{
+	margin-top: 5px;
 }
 
 #service img
