@@ -2,12 +2,16 @@
 
 /*RESOLUTION POUR MOBILE TOUTES PAGES*/
 
-/*DEBUT PAGE D'ACCUEIL*/
+
 
 @media all and (min-width: 320px) and (max-width: 425px)
 {
+
+/*DEBUT PAGE D'ACCUEIL*/
+
 	body
 	{
+		overflow-x: hidden;
 		font-size: 3.2vw;
 	}
 
@@ -38,7 +42,7 @@
 		margin-bottom: 0px;
 		margin-left: 0;
 		width: 100%;
-		height: 30px;
+		height: 35px;
 	}
 
 	.nav_content li
@@ -95,14 +99,97 @@
 		margin-top: 10px;
 	}
 
-	figure
+/*FIN PAGE D'ACCUEIL*/
+
+/*DEBUT PAGE QUI SOMMES NOUS*/
+
+	#a_propos
 	{
-		text-align: center;
-		margin-top: 10px;
+		margin-top: 15px;
 	}
 
-	figure img
+	.liseret
 	{
-		width: 70%;
+		width: 40%;
+		margin-bottom: 10px;
 	}
+
+	.texte_propos
+	{
+		margin-left: 7.5%;
+		margin-bottom: 10px;
+	}
+
+	.sous_titre
+	{
+		margin-left: 7.5%;
+	}
+
+	#a_propos figure
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	#a_propos figure img
+	{
+		width: 35%;
+		height: 80px;
+	}
+
+/*FIN DE LA PAGE QUI SOMMES NOUS*/
+
+/*DEBUT PAGE NOS ACTIONS*/
+
+	#service
+	{
+		margin-top: 20px;
+	}
+
+	.service_titre
+	{
+		margin-left: 7.5%;
+	}
+
+	.service_liseret
+	{
+		width: 50%;
+		margin-left: 7.5%;
+		margin-bottom: 10px;
+	}
+
+	.service_texte
+	{
+		margin-bottom: 15px;
+		margin-left: 12.5%;
+	}
+
+	.sous_nav_content
+	{
+		width: 60%;
+		height: 40px;
+		margin-left: 21.5%;
+		margin-bottom: 20px;
+		font-size: 3.45vw;
+	}
+
+	.sous_nav_content li
+	{
+		margin-top: 9px;
+	}
+
+	#service figure
+	{
+		text-align: center;
+		width: 100%;
+	}
+
+	#service figure img
+	{
+		margin-left: 0;
+		width: 80%
+	}
+
+
 }
