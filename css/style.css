@@ -463,6 +463,7 @@ a
 #galerie_image img
 {
 	width: 30%;
+	border-radius: 5px;
 }
 
 /*FIN DU CODE POUR LES IMAGES*/

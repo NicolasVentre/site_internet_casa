@@ -60,7 +60,7 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	.titre_info
@@ -138,7 +138,7 @@
 		height: 80px;
 	}
 
-/*FIN DE LA PAGE QUI SOMMES NOUS*/
+/*FIN PAGE QUI SOMMES NOUS*/
 
 /*DEBUT PAGE NOS ACTIONS*/
 
@@ -191,5 +191,98 @@
 		width: 80%
 	}
 
+/*FIN PAGES NOS ACTIONS*/
 
+/*DEBUT PAGE ENFANT*/
+
+	#info_enfant
+	{
+		margin-top: 10px;
+	}
+
+	.sous_titre_enfant_liseret
+	{
+		width: 52%;
+	}
+
+/*FIN PAGE ENFANT*/
+
+/*DEBUT PAGE ADULTE*/
+
+	#info_adulte
+	{
+		margin-top: 10px;
+	}
+
+	.sous_titre_adulte_liseret
+	{
+		width: 85%;
+	}
+
+/*FIN PAGE ADULTE*/
+
+/*DEBUT PAGE SOCIAL/LUDIQUE*/
+
+	#info_ludique
+	{
+		margin-top: 10px;
+	}
+
+	.sous_titre_ludique_liseret
+	{
+		width: 40%;
+	}
+
+	#info_ludique img
+	{
+		width: 75%;
+		margin-left: 12.5%;
+		margin-top: 20px;
+	}
+
+/*FIN PAGE SOCIAL/LUDIQUE*/
+
+/*DEBUT PAGE GALERIE*/
+
+	#galerie_image
+	{
+		margin-top: 15px;
+	}
+
+	#galerie_image img
+	{
+		border-radius: 5px;
+	}
+
+/*FIN PAGE GALERIE*/
+
+/*DEBUT PAGE CONTACT*/
+
+	#formulaire_contact
+	{
+		margin-top: 15px;
+	}
+
+	.liseret_contact
+	{
+		width: 50%;
+	}
+
+	.sous_liseret_contact
+	{
+		width: 7%;
+	}
+
+	.form_contact .fa-facebook-square
+	{
+		font-size: 2.5em;
+	}
+
+	form
+	{
+		width: 50%;
+		opacity: 0.8;
+	}
+
+/*FIN PAGE CONTACT*/
 }
