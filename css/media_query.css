@@ -47,7 +47,7 @@
 
 	.nav_content li
 	{
-		margin-top: 4px;
+		margin-top: 7px;
 	}
 
 	.slider
@@ -290,8 +290,156 @@
 /*FIN DE RESOLUTION POUR MOBILE TOUTE PAGES*/
 
 
-/*RESOLUTION POUR TABLETTES TOUTES PAGES*/
+
+/*RESOLUTION INTERMEDIAIRE TOUTES PAGES*/
+
+
+@media all and (min-width: 426px) and (max-width: 767px)
+{
 
 /*DEBUT PAGE D'ACCUEIL*/
 
+	body
+	{
+		font-size: 2vw;
+	}
+
+	.flex
+	{
+		display: none;
+	}
+
+	header figure
+	{
+		margin-left: 15%;
+	}
+
+	header figure img
+	{
+		width: 80%;
+	}
+
+	.nav_content
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		height: 40px;
+	}
+
+	.nav_content li
+	{
+		margin-top: 7px;
+	}
+
+	#informations
+	{
+		margin-top: 35px;
+	}
+
+	.info_liseret
+	{
+		width: 85%;
+	}
+
+/*FIN PAGE D'ACCUEIL*/
+
+/*DEBUT PAGE QUI SOMMES NOUS*/
+
+	.liseret
+	{
+		width: 25%;
+	}
+
+/*FIN PAGE QUI SOMMES NOUS*/
+
+/*DEBUT PAGE NOS ACTIONS*/
+
+	.service_liseret
+	{
+		width: 35%;
+	}
+
+	.sous_nav_content
+	{
+		margin-left: 33%;
+		height: 35px;
+	}
+
+	.sous_nav_content li
+	{
+		margin-top: 4px;
+	}
+
+	#service figure img
+	{
+		margin-left: 11%;
+		width: 80%;
+	}
+
+	#contact
+	{
+		margin-top: 25px;
+	}
+
+/*FIN PAGE NOS ACTIONS*/
+
+/*DEBUT PAGE ENFANT*/
+
+	.enfant_liseret
+	{
+		width: 50%;
+	}
+
+	.sous_titre_enfant_liseret
+	{
+		width: 33%;
+	}
+
+/*FIN PAGE ENFANT*/
+
+/*DEBUT PAGE ADULTE*/
+
+	.sous_titre_adulte_liseret
+	{
+		width: 50%;
+	}
+
+	.contenu_adulte
+	{
+		margin-bottom: 5px;
+	}
+
+/*FIN PAGE ADULTE*/
+
+/*DEBUT PAGE SOCIAL/LUDIQUE*/
+
+	.ludique_liseret
+	{
+		width: 50%;
+	}
+
+	.sous_titre_ludique_liseret
+	{
+		width: 27%;
+	}
+
+/*FIN PAGE SOCIAL/LUDIQUE*/
+
+/*DEBUT PAGE CONTACT*/
+
+	.form_contact .fa-facebook-square
+	{
+		font-size: 2.5em;
+	}
 	
+	form
+	{
+		width: 40%;
+		opacity: 0.8;
+	}
+
+/*FIN PAGE CONTACT*/	
+
+}
+
+/*FIN DE RESOLUTION INTERMEDIAIRE TOUTES PAGES*/
