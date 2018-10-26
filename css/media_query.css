@@ -443,3 +443,62 @@
 }
 
 /*FIN DE RESOLUTION INTERMEDIAIRE TOUTES PAGES*/
+
+
+/*DEBUT DES AUTRES RESOLUTION*/
+
+
+
+@media all and (min-width: 768px) and (max-width: 1023px)
+{
+
+/*DEBUT PAGE D'ACCUEIL*/
+
+	header figure
+	{
+		margin-left: 18%;
+	}
+
+	.info_liseret
+	{
+		width: 90%;
+	}
+
+/*FIN PAGE D'ACCUEIL*/
+
+/*DEBUT PAGE ENFANT*/
+
+	.sous_titre_enfant_liseret
+	{
+		width: 35%;
+	}
+
+/*FIN PAGE ENFANT*/
+
+/*DEBUT PAGE ADULTE*/
+
+	.sous_titre_adulte_liseret
+	{
+		width: 55%;
+	}
+
+/*FIN PAGE ADULTE*/
+
+/*DEBUT PAGE SOCIAL/LUDIQUE*/
+
+	.sous_titre_ludique_liseret
+	{
+		width: 30%;
+	}
+
+/*FIN PAGE SOCIAL/LUDIQUE*/
+
+/*DEBUT PAGE CONTACT*/
+
+	form
+	{
+		width: 30%;
+	}
+
+/*FIN PAGE CONTACT*/	
+}	
